@@ -1,0 +1,26 @@
+body{
+  color: #F9F6EE;
+  background-color: #1D1E21;
+  font-family: Helvetica;
+}
+
+a:link{
+  color: #F9F6EE;
+  text-decoration: none;
+}
+a:visited{
+  color: #F9F6EE;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+nav{
+  display: flex;
+  flex-direction: row-reverse;
+}
+nav > a{
+  margin: 20px;
+  text-align: center;
+}
